@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap');
+@import url("fondo.css");
+*{
+  margin: 0;
+  padding:0;
+}
+html, body{
+  height: 100%}
+
+#three{
+  width:80vw;
+  height:80vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    display: block;
+    margin-left: 20%;
+    max-width:60%;
+   height:auto;
+   max-height:60%;
+     
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+article{
+  width: 30%;
+  margin: 20px 0;
+ 
+}
+
+img{
+  width: 364px;
+  height: 445px;
+  margin-bottom: 20px;
+  margin-left: 45px;
+  object-fit: scale-down; max-width: 100%
+ }
+ 
+h2{ font-family: 'Bilbo', cursive;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+h3, p {
+  font-family: 'Bilbo', cursive;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+   -webkit-animation: glow 1s ease-in-out infinite alternate;
+   -moz-animation: glow 1s ease-in-out infinite alternate;
+   animation: glow 1s ease-in-out infinite alternate;
+}
+p{
+  margin-left: -10px;
+}
+
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #d2d446, 0 0 40px gold, 0 0 50px goldenrod, 0 0 60px gold, 0 0 70px goldenrod;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 10px rgb(128, 5, 5), 0 0 40px red, 0 0 50px rgb(238, 66, 66), 0 0 60px rgb(240, 65, 65), 0 0 70px rgb(240, 65, 65), 0 0 80px rgb(240, 65, 65);
+  }
+
+}
+@-webkit-keyframes glow2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #d2d446, 0 0 30px gold, 0 0 40px goldenrod, 0 0 50px gold, 0 0 60px goldenrod;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 10px rgb(128, 5, 5), 0 0 20px red, 0 0 30px rgb(238, 66, 66), 0 0 40px rgb(240, 65, 65), 0 0 50px rgb(240, 65, 65), 0 0 60px rgb(240, 65, 65);
+  }
+
+}
+
+
+/*******************************************************************/
+#demo-containerG {
+	width: 400px;
+  margin: 60px auto;
+  position: relative;
+  left: 0px;
+  top: 35px;
+}
+
+#download-button1, #download-button2 ,#download-button3, #download-buttonG  {
+	background-color:black;
+	color: black;
+	border: 2px solid #2e6168;
+	font-family: 'Bilbo', cursive;
+	outline: none;
+	min-width: 100px;
+	padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+	border-radius: 2px;
+	cursor: pointer;
+	display: block;
+  margin: 0 auto;
+  -webkit-animation: glow2 1s ease-in-out infinite alternate;
+ -moz-animation: glow2 1s ease-in-out infinite alternate;
+ animation: glow2 1s ease-in-out infinite alternate;
+}
+
+#start-download1, #start-download2, #start-download3, #start-downloadG {
+	text-align: center;
+	display: none;
+}
+
+#download-progress-container1, #download-progress-container2, #download-progress-container3,#download-progress-containerG {
+	border: 1px solid #cccccc;
+	padding: 4px;
+	display: none;
+	height: 20px;
+}
+
+#download-progress1, #download-progress2, #download-progress3, #download-progressG {
+	background-color: #2980b9;
+	display: inline-block;
+	height: 100%;
+}
+
+#save-file1,#save-file2, #save-file3, #save-fileG {
+	color: #2980b9;
+	text-decoration: none;
+	display: none;
+  text-align: center;
+  font-family: 'Bilbo', cursive;
+  font-size: 30px;
+  
+}
+
+#save-file1:hover,#save-file2:hover, #save-file3:hover, #save-file6:hover{
+  text-decoration: underline;
+  font-family: 'Bilbo', cursive;
+  
+}
