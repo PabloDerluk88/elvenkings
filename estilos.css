@@ -132,7 +132,7 @@ p{
 	background-color: #2980b9;
 	display: inline-block;
   height: 100%;
-  transition: width 0.3s;
+  transition: width 0.6s;
 }
 
 #save-file1,#save-file2, #save-file3, #save-fileG {
