@@ -1,5 +1,3 @@
-/*Hola profe, buenas tardes! aca le dejo la version mejorada (?) de la pagina anterior optimizada con funciones y menos
-repeticion de codigo, ademas de la incorporacion de un boton global usando fetch*/
 
 /*VARIABLES*/
 let _OBJECT_URL;
