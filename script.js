@@ -55,7 +55,7 @@ document.querySelector('#download-button2').addEventListener('click', function (
 		progress(e, dp2);
 	});
 	request.responseType = 'blob';
-	request.open('get', 'manwe.jpg');
+	request.open('get', 'elwe.jpg');
 	request.send();
 });
 
@@ -85,7 +85,7 @@ document.querySelector('#download-button3').addEventListener('click', function (
 /*BOTON GLOBAL USANDO FETCH API*/
 document.querySelector('#download-buttonG').addEventListener('click', function () {
 
-	let pedido1 = fetch("manwe.jpg")
+	let pedido1 = fetch("elwe.jpg")
 
 		.then((resultado) => {
 			return resultado.blob()
